@@ -24,6 +24,7 @@ This Project is part of my **Data Analytics Portifolio**, developed to demonstra
 - **Power BI for Visualization**:
     - Generated tables by uploading Excel files into Power BI;
     - Cleaned and transformed raw sales data using **Power Query**;
+    - Design and develop **Data Models** for relations **(Snowflake Schema)**;
     - Implement **DAX (Data Analysis Expressions)** to create customs calculations, including advanced sales forecasts and profitability metrics;
     - Built **interactive dashboards** for a comprehensice view of sales trends, product performance, and regional sales Analysis.
     
@@ -43,7 +44,7 @@ This Project is part of my **Data Analytics Portifolio**, developed to demonstra
 ## Tools and Technologies
 
 - **Microsoft Excel**: Formulas for data Preparation.
-- **Microsoft Power BI**: Power Query, tables, DAX calculations for Forecasting, Dashboards.
+- **Microsoft Power BI**: Power Query, Data Model Schema, tables, DAX calculations for Forecasting, Dashboards.
 - **Microsoft Power BI Service**: Online Platform for publishing and sharing reports, allowing for real-time collaboration and access.
 - **Python (Pandas)**: Used fir creating and processing exchange rate tables.
 - **Git**: Version control for tracking changes across project interations.
