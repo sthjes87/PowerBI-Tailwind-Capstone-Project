@@ -79,6 +79,6 @@ This project effectively demonstrates the use of **Excel** for data preparation,
 
 For more information about this project or to discuss potential data analysis opportunities, feel free to reach out:
 
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/thiago-dejesus/)
-- **GitHub Portfolio**: [Your GitHub Profile](https://github.com/sthjes87)
+- **LinkedIn**: [thiago-dejesus](https://www.linkedin.com/in/thiago-dejesus/)
+- **GitHub Portfolio**: [sthjes87](https://github.com/sthjes87)
 - **Email**: thiagojesus_87@hotmail.com
