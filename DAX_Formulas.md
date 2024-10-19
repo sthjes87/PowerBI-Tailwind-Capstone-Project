@@ -16,8 +16,11 @@ ADDCOLUMNS(
     "Day", DAY([Date])
 )
 
+```
+
 ## 2. Create a Sales in USD Calculated Table
 
+```DAX
 Sales in USD =
 ADDCOLUMNS(
     Sales,
@@ -28,4 +31,4 @@ ADDCOLUMNS(
     "Net Revenue USD", [Net Revenue] * RELATED('Exchange Data'[Exchange Rate]),
     "Total Tax USD", [Total Tax] * RELATED('Exchange Data'[Exchange Rate])
 )
-
+```
