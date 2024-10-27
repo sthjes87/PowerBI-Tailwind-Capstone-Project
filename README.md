@@ -1,52 +1,94 @@
-# Power BI & Excel Sales Data Analysis Project
+# Power BI & Excel Sales Data Analysis and Reporting Project
 
 **Objective:**
-This project is part of my **Data Analytics Portfolio**, designed to demonstrate advanced expertise in data analysis and visualization using Microsoft Power BI, Excel, and Python. It involves data cleaning, transformation, and analysis of multiple sources, with results delivered through dynamic, interactive reports that provide actionable insights for informed decision-making.
+This project is part of my **Data Analytics Portfolio** and demonstrates my advanced skills in data analysis, visualization, and reporting using **Microsoft Power BI**, **Excel**, and **Python**. It involves data cleaning, transformation, and the creation of dynamic, interactive reports, providing actionable insights for strategic decision-making.
 
 ---
 
 ## Key Insights
 
-1. **Seasonality in Sales**: Identified peak sales during Q4, especially around the holiday season, showing a 25% revenue increase compared to other quarters.
-2. **Regional Performance**: Uncovered varying regional performance, with the Southeast leading in sales growth (15% YoY), while the Midwest underperformed (5% growth), suggesting opportunities for strategic adjustments.
-3. **Profit Margins**: Highlighted disparities between revenue and profitability across key product lines, informing potential pricing or cost-optimization strategies.
-4. **Multi-source Integration**: Incorporated multi-currency sales analysis, enabled by integrating Python-generated exchange rate tables, enhancing global business operations.
-5. **Forecasting**: Developed predictive models using advanced DAX functions, forecasting a 10% sales growth for Q4 based on historical trends and seasonality.
+1. **Seasonality in Sales**: Identified a 25% revenue increase during Q4, particularly around the holiday season, enabling better demand forecasting and resource planning.
+2. **Regional Performance**: Highlighted the Southeast as the top-performing region (15% YoY growth), while the Midwest underperformed (5% growth), suggesting opportunities for market realignment.
+3. **Profit Margins**: Discovered key product lines with high revenue but low profitability, leading to strategic discussions on pricing and cost optimization.
+4. **Multi-Source Integration**: Integrated multi-currency sales data using Python-generated exchange rate tables, providing a global sales view and aiding international decision-making.
+5. **Forecasting**: Built predictive sales models using advanced DAX functions, forecasting a 10% increase in revenue for the upcoming quarter.
 
 ---
 
 ## Project Features
 
-- **Data Preparation with Excel**:
-    - Applied **Excel formulas** for data cleaning and preparation, ensuring the dataset was structured for efficient import into Power BI.
-    - Prepared sales data for deeper analysis by organizing it into a structured format compatible with data modeling in Power BI.
+### 1. **Data Preparation and Transformation**:
+   - **Excel**: Applied formulas for data cleaning and preparation, ensuring a well-structured dataset for Power BI integration.
+   - **Python (Pandas)**: Generated and integrated exchange rate tables to support multi-currency sales analysis.
 
-- **Power BI for Data Visualization**:
-    - Imported and organized Excel data into Power BI for enhanced analysis and visualization.
-    - Cleaned and transformed raw data using **Power Query**, establishing a clean dataset for modeling.
-    - Designed and implemented **Data Models** using the **Snowflake Schema**, enhancing relational data integrity.
-    - Used **DAX (Data Analysis Expressions)** to develop custom calculations for advanced sales forecasts, profitability analysis, and key performance metrics.
-    - Created **interactive dashboards** to provide a comprehensive view of sales trends, product performance, and regional analysis.
+### 2. **Power BI for Visualization and Analysis**:
+   - Imported Excel data into Power BI, cleaned, and transformed it using **Power Query**.
+   - Built comprehensive **Data Models** using a **Snowflake Schema**, supporting accurate relational data analysis.
+   - Created custom calculations using **DAX** to generate insights, including advanced sales forecasts and profitability metrics.
+   - Developed **interactive dashboards** to visualize trends, product performance, and regional sales, providing stakeholders with clear and actionable data.
 
-- **Power BI Service**:
-    - Published Power BI Desktop reports to **Power BI Service**, enabling seamless sharing and collaboration.
-    - Provided stakeholders with real-time, interactive access to reports through the Power BI Online platform, ensuring insights are available on-demand.
+### 3. **Power BI Service for Collaboration**:
+   - Published reports to **Power BI Service** for real-time collaboration, enabling stakeholders to access interactive dashboards anytime, anywhere.
+   - Configured mobile views, making critical data accessible on mobile devices, supporting decision-making on the go.
 
-- **Python for Data Augmentation**:
-    - Developed Python scripts using **Pandas** to generate an exchange rate table, which was integrated with the sales data for multi-currency analysis, adding depth to global sales reporting.
+---
 
-- **Git for Version Control**:
-    - Utilized **Git** to manage the project lifecycle, ensuring version control and seamless tracking of updates, making the analysis reproducible and improving collaboration.
+## Profit Report: Detailed Overview
+
+As part of the project, I developed a **Profit Overview Report** that highlights key profit metrics through various visualizations:
+
+- **Net Revenue by Product**: A bar chart visualizing product-level net revenue, enabling better product strategy decisions.
+- **Yearly Profit Margin by Country**: A donut chart presenting profit margin distribution across different countries.
+- **Yearly Profit Margin Over Time**: An area chart tracking profit trends over time, helping stakeholders monitor long-term profitability.
+
+Additionally, key metrics such as **YTD Profit** and **Net Revenue USD** were displayed using cards for quick reference, and a **KPI** for **Gross Revenue USD** provided real-time performance tracking.
+
+---
+
+## Executive Dashboard: High-Level Insights
+
+To provide executives with a high-level, mobile-friendly view of the company’s global performance, I developed an **Executive Dashboard** that focuses on key metrics such as sales quantities and profit margins:
+
+### Features:
+- **Sales Overview Visuals**: Included visuals like **Loyalty Points by Country**, **Quantity Sold by Product**, and **Median Sales Distribution by Country**.
+- **Profit Overview Visuals**: Pinned key charts such as **Net Revenue by Product**, **Yearly Profit Margin by Country**, and **Yearly Profit Margin Over Time**.
+- **Card Visualizations**: Displayed **YTD Profit**, **Net Revenue USD**, and **Gross Revenue USD** as cards and KPIs for quick, actionable insights.
+- **Mobile Layout**: Configured a mobile-friendly layout for easy access to key metrics and visuals from mobile devices, ensuring that important data is available anywhere.
+
+---
+
+## Alerts and Subscriptions: Automating Insights
+
+To ensure stakeholders are always informed, I configured alerts and subscriptions to provide timely updates on key performance indicators.
+
+### 1. **Alerts**:
+   - Created a daily alert for **Gross Revenue USD**, which triggers if revenue falls below $400, ensuring immediate action if revenue decreases.
+
+### 2. **Subscriptions**:
+   - **Sales Weekly Summary**: A subscription that provides an overview of key sales metrics, delivered every Monday at 5:00 AM, helping stakeholders stay on top of sales performance.
+   - **Profit Weekly Summary**: Another subscription for profit metrics, delivered every Monday, Wednesday, and Friday at 6:00 AM, providing regular updates on profitability.
+
+These alerts and subscriptions ensure that the executive team receives regular, proactive updates, enabling them to make data-driven decisions with confidence.
+
+---
+
+## How to Explore the Project Online
+
+You can access the **Tailwind Traders Executive Dashboard** online through Power BI Service by clicking the link below:
+
+- [Tailwind Traders Executive Dashboard](https://app.powerbi.com/groups/me/dashboards/4f318f3b-695c-4f6b-a8b7-102402eeb1cd?ctid=badb8181-0fb3-4052-9d99-bf15bd110785&pbi_source=linkShare)
+
+Ensure you have the necessary access to view the dashboard, which may require a **Power BI Pro** license or relevant workspace permissions.
 
 ---
 
 ## Tools and Technologies
 
-- **Microsoft Excel**: Applied advanced formulas for data preparation and transformation.
-- **Microsoft Power BI**: Utilized Power Query, DAX, and data models for advanced calculations, forecasting, and dashboard development.
-- **Microsoft Power BI Service**: Published reports to Power BI Online for collaboration and real-time access.
-- **Python (Pandas)**: Used for augmenting data with exchange rate tables and enhancing the depth of analysis.
-- **Git**: Employed for version control, ensuring project integrity and traceability.
+- **Microsoft Excel**: Data cleaning, preparation, and transformation using advanced formulas.
+- **Microsoft Power BI**: Data visualization, Power Query, DAX for custom calculations, and interactive dashboards.
+- **Power BI Service**: Publishing and sharing reports, along with configuring alerts and subscriptions for proactive insights.
+- **Python (Pandas)**: Generated exchange rate tables for multi-currency analysis.
+- **Git**: Version control for tracking project updates and ensuring smooth collaboration.
 
 ---
 
@@ -62,23 +104,24 @@ This project is part of my **Data Analytics Portfolio**, designed to demonstrate
 
 This project generated several actionable insights:
 
-- **Product and Sales Performance**: Identified high-revenue products with varying profitability, highlighting areas for potential pricing or product strategy adjustments.
-- **Regional Analysis**: Pinpointed regions with underperformance, such as the Midwest, suggesting opportunities for targeted marketing or operational restructuring.
-- **Predictive Sales Models**: Developed forecasts that anticipate a sales increase in the Southeast region, aiding in resource planning and strategic decision-making for the upcoming quarter.
-- **Multi-Source Integration**: The integration of Python-generated exchange rate tables enabled multi-currency sales analysis, providing global business insights.
+- **Product and Sales Performance**: Identified high-revenue products with varying profitability, leading to strategic adjustments in pricing and marketing.
+- **Regional Analysis**: Highlighted regions with underperformance, such as the Midwest, prompting the need for targeted strategies.
+- **Predictive Sales Models**: Developed sales forecasts predicting growth in the Southeast region, aiding resource planning for future quarters.
+- **Multi-Source Integration**: Enabled multi-currency sales analysis, providing global insights for international operations.
 
 ---
 
 ## Conclusion
 
-This project successfully demonstrates the integration of **Excel** for data preparation, **Power BI Desktop** for modeling and visualization, **DAX** for advanced calculations, and **Power BI Service** for real-time report sharing. Python was leveraged for data augmentation, enhancing the analysis by incorporating multi-source data. The use of **Git** ensured a systematic and professional approach to project version control and collaboration.
+This project demonstrates my ability to handle end-to-end data analysis, from preparation to advanced visualization and real-time reporting. By integrating Excel, Power BI, and Python, along with leveraging Power BI Service for alerts and subscriptions, I delivered a comprehensive solution for data-driven decision-making. Through systematic project management using **Git**, this project showcases professionalism and a structured approach to delivering insights.
 
 ---
 
 ## Contact Information
 
-For inquiries about this project or potential collaboration opportunities, feel free to connect:
+For more information about this project or to discuss potential collaboration opportunities, feel free to connect:
 
 - **LinkedIn**: [thiago-dejesus](https://www.linkedin.com/in/thiago-dejesus/)
 - **GitHub Portfolio**: [sthjes87](https://github.com/sthjes87)
 - **Email**: thiagojesus_87@hotmail.com
+
